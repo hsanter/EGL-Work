@@ -10,10 +10,10 @@
 NotebookFileLineBreakTest
 NotebookFileLineBreakTest
 NotebookDataPosition[       158,          7]
-NotebookDataLength[      3892,        125]
-NotebookOptionsPosition[      3157,        104]
-NotebookOutlinePosition[      3503,        119]
-CellTagsIndexPosition[      3460,        116]
+NotebookDataLength[      5618,        170]
+NotebookOptionsPosition[      4694,        147]
+NotebookOutlinePosition[      5040,        162]
+CellTagsIndexPosition[      4997,        159]
 WindowFrame->Normal*)
 
 (* Beginning of Notebook Content *)
@@ -96,13 +96,56 @@ Cell[BoxData[
 Cell["\<\
 Notes/questions for goldman:
 
+does MF function as intended? should MF[zeromatrix[2]] actually yield \
+MF[{zeromatrix[2]}]?
+
+what is purpose of MF2?
+
+
+
+what\[CloseCurlyQuote]s up with the input right above \
+\[OpenCurlyDoubleQuote]projective equivalence\[CloseCurlyDoubleQuote] at a \
+and b?
+
+
 \
 \>", "Text",
- CellChangeTimes->{{3.761427234369608*^9, 
-  3.76142724472176*^9}},ExpressionUUID->"1ee6ea92-b475-4911-9c50-\
-0f8a921325ac"]
+ CellChangeTimes->{{3.761427234369608*^9, 3.76142724472176*^9}, {
+  3.761427275353957*^9, 3.7614272891457186`*^9}, {3.761427363466385*^9, 
+  3.7614273908930163`*^9}, {3.7614276382126913`*^9, 3.761427647907778*^9}, {
+  3.7614830406957445`*^9, 3.761483059061432*^9}, {3.7614842793788033`*^9, 
+  3.761484302269435*^9}, {3.7614851469343247`*^9, 3.761485165558713*^9}, {
+  3.7614856438771996`*^9, 3.761485650231267*^9}, {3.7622725215686235`*^9, 
+  3.7622725398212333`*^9}},ExpressionUUID->"1ee6ea92-b475-4911-9c50-\
+0f8a921325ac"],
+
+Cell[BoxData[
+ RowBox[{"\[IndentingNewLine]", "\[IndentingNewLine]"}]], "Input",
+ CellChangeTimes->{{3.7614851452428656`*^9, 
+  3.761485145371521*^9}},ExpressionUUID->"47952284-23c4-4e37-8519-\
+5a75e0b1eae9"],
+
+Cell["\<\
+CHANGELOG
+
+-made stringtosixvector, etc init cells
+-labeled so(4) at first use
+-added usage label to StringToSixVector
+changed avec...dvec to wvec...zvec
+some wording changes to plucker involution section
+moved projective equivalence
+
+QUESTIONS
+eigenspaces?\
+\>", "Text",
+ CellChangeTimes->{{3.7622713325245543`*^9, 3.762271353129779*^9}, {
+  3.7622716877966747`*^9, 3.7622717104769063`*^9}, {3.762272598688736*^9, 
+  3.7622726065587635`*^9}, {3.7622769258947525`*^9, 3.762276946571706*^9}, {
+  3.76277553766757*^9, 3.7627755482693524`*^9}, {3.762777820037727*^9, 
+  3.7627778396222844`*^9}},ExpressionUUID->"1f579f1a-6eac-410e-b2d9-\
+4c23d3459d39"]
 },
-WindowSize->{766, 812},
+WindowSize->{766, 805},
 WindowMargins->{{Automatic, -7}, {Automatic, 0}},
 FrontEndVersion->"11.2 for Microsoft Windows (64-bit) (September 10, 2017)",
 StyleDefinitions->"Default.nb"
@@ -126,10 +169,10 @@ Cell[CellGroupData[{
 Cell[2176, 67, 378, 12, 28, "Input",ExpressionUUID->"7f5f1bde-0527-49ed-ab2f-c582bd8f080a"],
 Cell[2557, 81, 402, 11, 32, "Output",ExpressionUUID->"8d83caf5-5260-49e4-934c-6879c9cb34d9"]
 }, Open  ]],
-Cell[2974, 95, 179, 7, 78, "Text",ExpressionUUID->"1ee6ea92-b475-4911-9c50-0f8a921325ac"]
+Cell[2974, 95, 843, 24, 276, "Text",ExpressionUUID->"1ee6ea92-b475-4911-9c50-0f8a921325ac"],
+Cell[3820, 121, 208, 4, 67, "Input",ExpressionUUID->"47952284-23c4-4e37-8519-5a75e0b1eae9"],
+Cell[4031, 127, 659, 18, 254, "Text",ExpressionUUID->"1f579f1a-6eac-410e-b2d9-4c23d3459d39"]
 }
 ]
 *)
-
-(* End of internal cache information *)
 
